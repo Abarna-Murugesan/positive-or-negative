@@ -1,2 +1,7 @@
 # positive-or-negative
-guvi
+n=input()
+if (n==0):
+    if "-" in n:
+        print("Negative")
+    else:
+        print("Positive")
